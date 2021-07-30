@@ -14,6 +14,7 @@ export default function App() {
 
   //useEffect is making the api call when the page mounts which
   //allows for the data to populate automatically
+  //Delete this
   useEffect(() => {
     fetch('https://swapi.dev/api/people')
       .then((response) => response.json())
